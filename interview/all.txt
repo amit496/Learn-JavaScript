@@ -1,0 +1,6 @@
+Q:- What is length in the javascript?
+A:- length is a function which used to find the length of a string and array.
+
+Q:- What is includes in javascipt?
+A:- Includes is a function which is used to find the particular element the any string or array. And include is a case-sensitive function.
+

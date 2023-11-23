@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <script>
+        let layout = "HTML";
+        let design = "CSS";
+        var newstring = new String('Data Reset');
+        // console.log(newstring[3]);
+        // console.log(newstring.__proto__);
+        // console.table([newstring[2], newstring[5], newstring.toUpperCase(), newstring, newstring.charAt(6), newstring.indexOf('R')]);
+
+        let string = "In this tutorial you will learn javascript string methods in Hindi, Urdu.You can learn how to search in any string, replace any word , find index of searched word with these javascript string methods in hindi.";
+
+
+        // console.table([string.length, string.toLowerCase(), string.toUpperCase(), string.includes('learn'), string.includes('Learn'), string.includes('ial'), string.startsWith('I'), string.endsWith('hindi.'), string.search('string'),  string.indexOf('learn'), string.lastIndexOf('learn'), string.replace('learn', '"HELLO"')]);
+        // console.log(string.match(/string/g), );
+
+        // console.log(string.replace('learn', 'HELLO'));
+
+        // console.log(string.replace('learn javascript', '"HELLO"'));
+
+        // console.log(string.replace(/learn/g, '"HELLO"'));
+
+
+        let string1 = "In this     tutorial you will learn javascript string methods in Hindi, Urdu.You can learn how to       search in      any string, replace    any word , find index of searched word with     these javascript string    methods in hindi.";
+        // console.log('Remove:- ' + string.trim(string1));
+
+        console.table([
+            string.length, 
+            string.toUpperCase(), 
+            string.toLowerCase(), 
+            string.includes('any word'), 
+            string.includes('anyword'), 
+            string.search('you'),
+            string.search('you1'),
+            string.endsWith('hindi.'),
+            string.endsWith('hindi'),
+            string.startsWith('In'),
+            string.startsWith('InEN'),
+            string.indexOf('this'),
+            string.lastIndexOf('with'),
+            string.lastIndexOf('with'),
+            
+            
+        ]);
+        
+        console.log(string.match(/learn/g));
+        console.log(string.replace('learn', 'HELLO'));
+        console.log(string.replace(/learn/g, 'HELLO'));
+        console.log(string1.trim());
+
+
+
+
+
+
+
+        
+    </script>
+</body>
+</html>

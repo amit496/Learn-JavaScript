@@ -1,0 +1,40 @@
+Q:- What is length in the javascript?
+A:- length is a function which used to find the length of a string and array.
+
+Q:- What is toLowerCase in JavaScript?
+A:- toLowerCase is a function used to convert the string into the lowercase.
+
+Q:- What is toUpperCase in javascript?
+A:- toUpperCase is a function used to convert the string into the uppercase.
+
+Q:- What is includes in javascipt?
+A:- Includes is a function which is used to find the particular element the any string or array. And include is a case-sensitive function. It's return "TRUE" or "FALSE".
+
+
+Q:- What is startWith in javascript?
+A:- startWith is a function which used to find the first character in the string. That means characters are exits or not exits. And startWith is a case-sensitive function.
+
+
+Q:- What is endWith in javascript?
+A:- endWith is a function which used to find the last character in the string. That means characters are exits or not exits. And endWith is a case-sensitive function.
+
+Q:- What is search in javascript?
+A:- search is a function which used to find the particular characters or word in the string. search function is return the "POSITION" of the characters or word.
+
+Q:- What is match in javascript?
+A:- match is a function which used to find the particular characters or words in the string. But we find how many times characters or words are available in the string. so we use the regular expression and its returns the array.
+
+
+Q:- What is indexOf in javascript?
+A:- indexOf is a function which used to find the particular characters or words in the string. It return the position of the first characters or words. 
+
+Question:- What is LastIndexOf in JavaScript?
+A:- LastIndexOf is a function that is used to find a particular character or word from the last position in the string. It also returns the position of the first characters or words.
+
+
+Question:- What is replace in JavaScript?
+A:- replace is a function that is used to replace the particular character, word, sentence, and whitespace in the string. it returns the new string after replace.
+
+
+Question:- What is trim in JavaScript?
+A:- trim is a function that is used to remove the extra whitespace in the string.

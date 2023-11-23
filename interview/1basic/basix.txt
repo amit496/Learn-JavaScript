@@ -1,0 +1,6 @@
+Q:- What is JavaScript?
+Q:- Who develop the javascript?
+Q:- How many days are develop the javascript?
+Q:- What is TC39?
+Q:- Which language are develop with the javascript.
+Q:- When develop the javascript?

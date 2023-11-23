@@ -1,0 +1,14 @@
+Q:- What is variable ?
+Q:- What var keyword?
+Q:- Why we need to variables in every programming language ?
+A:- let's assume we need to print any statement or text like any number, any string, or any other value one or more times, We assign the value to a variable and where it needs to be printed, variable is printed .
+    And in future, if we need to change the value of the variable.  we 'd change the value of the variable and it will automatically change the printed values in all places, where we printed the variable.
+Q:- Types of varible ?
+Q:- Scope of varibles ?
+Q:- Can we redeclare the variable ? if yes so explain it, if no so explain it .
+Q:- Can we reassign the new value to the variable ? if yes so explain it, if no so explain it.
+Q:- Can we use the number or special character at the beginning of variable name ?
+Q:- Can we use the number or special character at the end or between of variable names ?
+Q:- Can we use the space in the variable name between two or more words ?
+Q:- What do we get when we subtract the value of a variable whose data type is the string?
+Q:- Assume we have two variables, one of which has a string data type or the other variable has an integer data type, are subtracted, what answer do we get?
