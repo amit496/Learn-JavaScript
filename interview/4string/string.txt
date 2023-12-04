@@ -38,3 +38,81 @@ A:- replace is a function that is used to replace the particular character, word
 
 Question:- What is trim in JavaScript?
 A:- trim is a function that is used to remove the extra whitespace in the string.
+
+
+Question:- What work of the "CharAT".?
+A:- 'CharAt' is used for find the value in the string for the specific position. if value are not available on the position so it not retunr the any value.
+
+
+
+Question:- What work of the "charCodeAt".?
+A:- 'charCodeAt' is return the ACSII value. In this function we give the position and  on this position any value are available it return the ASCII value.
+
+Question:- What work of the "fromCodeAt".?
+A:- 'fromCodeAt' is return the ACSII value. In this function we give the position and  on this position any value are available it return the ASCII value.
+
+
+
+Question:- What work of the "concat".?
+A:- 'concat' is used for merge the two string. 
+
+
+Question:- What work of the "split".?
+A:- 'splite' is used for break any string and return the array. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
