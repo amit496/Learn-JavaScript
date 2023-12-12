@@ -41,34 +41,41 @@ A:- trim is a function that is used to remove the extra whitespace in the string
 
 
 Question:- What work of the "CharAT".?
-A:- 'CharAt' is used for find the value in the string for the specific position. if value are not available on the position so it not retunr the any value.
+A:- 'CharAt' is used for find the value in the string for the specific position. if value are not available on the position so it not return the any value.
 
 
 
 Question:- What work of the "charCodeAt".?
-A:- 'charCodeAt' is return the ACSII value. In this function we give the position and  on this position any value are available it return the ASCII value.
+A:- 'charCodeAt' returns the ASCII value. In this function, we give the position and on this position any value is available it returns the ASCII value.
 
 Question:- What work of the "fromCodeAt".?
-A:- 'fromCodeAt' is return the ACSII value. In this function we give the position and  on this position any value are available it return the ASCII value.
+A:- 'fromCodeAt' is return the ASCII value. In this function, we give the position and on this position any value is available it returns the ASCII value.
 
 
 
 Question:- What work of the "concat".?
-A:- 'concat' is used for merge the two string. 
+A:- 'concat' is used to merge the two or more strings. 
 
 
 Question:- What work of the "split".?
-A:- 'splite' is used for break any string and return the array. 
+A:- 'splite' is used to break any string and return the array. 
+
+Question:- What work of the "repeat".?
+A:- 'repeat' is used to repeat the string according to the parameter.
+
+Question:- What work of the "slice".?
+A:- 'slice' is used to getting the new string from the existing string.
+
+Question:- What work of the "substr".?
+A:- 'substr' returns the new string according the specific parameters. first parameter is the position and second is the character value.
 
 
+Question:- What work of the "substring".?
+A:- 'substring' returns the new string according the specific parameters.first parameter is the start position and second is the end position.
 
 
-
-
-
-
-
-
+Question:- What work of the "valueof".?
+A:- 'valueof'.
 
 
 

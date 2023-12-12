@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr1= ['HTML', 12, 'C', 20.30, true, false, 1 , 0, 'NULL'];
+        console.table([ arr1 ]);
+        console.table([ arr1[3] ]);
+
+        for(let a = 0; a < arr1.length; a++)
+        {
+            console.log(arr1[a]);
+            // document.write( a + ' = ' +arr1[a] + "<br>");
+        }
+        
+        console.log('-----------------------------------------------');
+
+        for(let a = 0; a < arr1.length; a++)
+        {
+            console.table(arr1[a]);
+            // document.write( a + ' = ' +arr1[a] + "<br>");
+        }
+
+        console.log('-----------------------------------------------');
+
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr1 =  [
+                        [12, 45, 'HTML', 'Data'],
+                        [34.34, 'Home', 5, 3.4],
+                        ['new', 'loop', 56.56, 90],
+                        ['if', 234, '56.56', 90],
+                    ];
+
+        
+        document.write("<table border='1'>");
+        for(let i=0; i < arr1.length; i++)
+        {
+            document.write("<tr>");
+            for(let j = 0; j < arr1.length; j++)
+            {
+                // console.log(arr1[i][j]);
+                document.write("<td>");
+                document.write(arr1[i][j] + ' ');
+                document.write("</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+
+        arr1[2][0] = 'new1';
+        arr1[3][1] = 'news';
+        document.write('-------------------------------');
+        document.write("<table border='1'>");
+        for(let i=0; i < arr1.length; i++)
+        {
+            document.write("<tr>");
+            for(let j = 0; j < arr1.length; j++)
+            {
+                // console.log(arr1[i][j]);
+                document.write("<td>");
+                document.write(arr1[i][j] + ' ');
+                document.write("</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+
+        // let arr2= ['HTML', 12, 'C', 20.30, true, false, 1 , 0, 'NULL'];
+
+        
+    </script>
+</body>
+</html>

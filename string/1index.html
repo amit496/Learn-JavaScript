@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>String</title>
+    <title>Document</title>
 </head>
+
 <body>
     <script>
-        let str =   "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose.";
+        let str1 = "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.";
 
+        // let data = new String('Data');
 
-        let str1 =   "      It is a long established fact that a reader will be distracted by the readable content of a page when looking at search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose.";
+        console.table([
+                        str1,
+                        str1.length, 
+                        str1.toLowerCase(), 
+                        str1.toUpperCase(), 
+                        str1.includes('L'), 
+                        str1.includes('ext'), 
+                        str1.includes('34'), 
+                        str1.search('o'), 
+                        str1.search('1l'), 
+                        str1.search(' '), 
+                        str1.lastIndexOf('der') + ' Last Index', 
+                        str1.indexOf('is'), 
+                        str1.startsWith('L'), 
+                        str1.startsWith('o'), 
+                        str1.endsWith('o'), 
+                        str1.endsWith('.'), 
+                        str1.replace('i', 'HELLO'), 
+                        str1.replace(/i/g, 'HELLO')
+                    ]);
 
-        console.table([str, str.length, str.startsWith('It'),str.startsWith('IT'),str.endsWith('purpose.'),str.endsWith('purpose'), str.search('long'),str.search('lonG'), str.toLowerCase(), str.toUpperCase(), str.includes('purpose'),str.includes('P'), str.indexOf('l'), str.indexOf('is'),str.lastIndexOf('some'),str.replace('is', 'HELO'), str.replace(/e/g, 'HELO'), str1, str1.trim()]);
+        console.table(str1.match('i'));
+        console.table(str1.match(/i/g));
 
-        console.table(str.match('f'));
-        console.table(str.match(/f/g));
+        let str2 = " Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. ";
+        console.table([str2, str2.trim()]);
 
-
-
-        
     </script>
 </body>
+
 </html>

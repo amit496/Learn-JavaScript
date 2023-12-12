@@ -1,0 +1,107 @@
+Q:- What is array?
+A:- An array is non-primative datatype, which hold the multiple value in the single variable and the values are can be string, boolean, number, float, etc.
+
+Q:- What is multidimensional array?
+A:- A multidimensional array is like a nested forloop, which means multiple arrays in the array. 
+
+Q:- Explain the delete function in array.
+A:- The delete function is used to delete the array element by the element index number.
+    example:- 
+    <script>
+        let arr1 =  [
+            [12, 45, 'HTML', 'Data'],
+            [34.34, 'Home', 5, 3.4],
+            ['new', 'loop', 56.56, 90],
+            ['if', 234, '56.56', 90],
+        ];
+
+        delete arr1[2][0];
+        delete arr1[3][1];
+    </script>
+
+Q:- Explain the sort function in array.
+A:- The sort function is used to sort the array elements.
+    example:- 
+    <script>
+        let arr2 = [12, 3,  1, 'Anglo' ,'anglo',  45, 'HTML', 'Data'];
+        document.write(arr2.sort());
+    </script>
+
+Q:- Explain the reverse function in array.
+A:- The reverse function is used to reverse the array elements.
+    example:- 
+    <script>
+        let arr2 = [12, 3,  1, 'Anglo' ,'anglo',  45, 'HTML', 'Data'];
+        document.write(arr2.sort());
+    </script>
+
+Q:- Explain the pop function in the array.
+A:- The pop function is used to remove the element at the last position from the array.
+    example:- 
+    <script>
+        let arr1 = ['if', 234, '56.56', 90];
+        arr1.pop();
+    </script>
+
+Q:- Explain the push function in the array.
+A:- The push function is used to add the new elements to the last position of the array.
+    example:- 
+    <script>
+        let arr1 = ['if', 234, '56.56', 90];
+        arr1.push('NEw');
+        arr1.push('data', 45);
+    </script>
+
+Q:- Explain the shift function in the array.
+A:- The shift function is used to remove the element from the beginning position of the array.
+    example:- 
+    <script>
+        let arr1 = ['if', 234, '56.56', 90];
+        arr1.pop();
+    </script>
+
+Q:- Explain the unshift function in the array.
+A:- The unshift function is used to add the new elements at the beginning of the array.
+    example:- 
+    <script>
+        let arr1 = ['if', 234, '56.56', 90];
+        arr1.unshift('NEw');
+        arr1.unshift('data', 45);
+    </script>
+
+Q:- Explain the concat function in the array.
+A:- The concat function is used to merge one or more arrays.
+    example:- 
+    <script>
+        let arr1 = ['if', 234, '56.56', 90];
+        let arr2 = ['if', 235, 'data', 90];
+        let arr3 = ['new', 23.53, 'data', 90];
+        arr1.concat(arr2);
+        arr1.concat(arr2, arr3);
+    </script>
+
+Q:- Explain the slice function in the array.
+A:- The slice function works like push and unshift, but the slice function is different, The slice function is used to add new elements at the specific position, In the function we are given the three parameters (position, delete element value, new value).
+    example:- 
+    <script>
+        let arr1 =  [34, 'HTML', 'css', 45,  78,  90, 'typr', 'new'];
+        let slice_arr1 =  arr1.splice(2, 0 , 'NAV', 'NUM');
+    </script>
+
+Q:- Explain the slice function in the array.
+A:- The splice function works like pop and shift, but the splice function is different, The splice function is used to remove the elements at the specific position, In the function we are given the two parameters (start_position, remove_elements).
+    example:- 
+    <script>
+        let arr1 =  [34, 'HTML', 'css', 45,  78,  90, 'typr', 'new'];
+        let slice_arr2 =  arr1.splice(3, 1);
+    </script>
+
+Q:- Explain the isArray function in the array.
+A:- The isArray function is used to check whether the array is an array or not.
+    example:- 
+    <script>
+        let arr1 =  [34, 'HTML', 'css', 45,  78,  90, 'typr', 'new'];
+        syntax :- 
+        Array.isArray(array varaible name);
+    </script>
+
